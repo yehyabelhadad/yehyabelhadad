@@ -1,0 +1,18 @@
+every ant represent a node in a network at first the colony enlists a list of nodes 
+
+every node chooses what to send depending on its activity 
+
+
+at a moment a node sends a message to another one 
+the controller records the message into the edges of the decision graph 
+
+the ant calculate the new parameters of the edges  based on phermone inspired formulaes
+
+
+
+On the arrival of a new message the algorithm works as follow : 
+	1- Apply a heuristic value to the decision if the heuristic takes us to the colony 
+	2- Verify if the ants Colony can decide whether or not to the SourceNode is trustworthy
+	3- If the ants colony can not decide use machine learning to decide begnin or ddos traffic 
+	4- Update the colony based on the result of the machine learning prediction
+	
